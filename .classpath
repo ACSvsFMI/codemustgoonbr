@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libext/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libext/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-ajp-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-annotations-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-client-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-continuation-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-deploy-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-http-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-io-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-jmx-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-jndi-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-overlay-deployer-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-plus-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-policy-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-rewrite-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-security-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-server-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-servlet-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-servlets-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-util-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-webapp-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-websocket-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/jetty-xml-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="libext/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="libext/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="libext/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="libext/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="libext/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="libext/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="lib" path="libext/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-auth-roles-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-core-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-datetime-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-devutils-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-extensions-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-guice-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-ioc-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-jmx-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-objectsizeof-agent-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-request-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-spring-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-util-1.5.9.jar"/>
+	<classpathentry kind="lib" path="libext/wicket-velocity-1.5.9.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
