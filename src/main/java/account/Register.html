@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="http://localhost:8080/style.css">
 </head>
 <body>
-	
+
 	<header>
 		<div class="nav">
 			<ul class="nav-bar">
@@ -18,21 +18,30 @@
 	</header>
 	<div class="main">
 		<div class="wrap">
-		<span wicket:id="feedback"> Feedback messages will be here </span><br/>
+			<span wicket:id="feedback"> Feedback messages will be here </span><br />
 			<div class="container5">
 				<div class="box-title">
 					<h2>Inregistrare</h2>
 				</div>
 				<div class="box-content clearfix">
 					<form wicket:id="form" class="cool-form">
-						<label>Last name: </label><input type="text" wicket:id="lname" required="required"><br />
+						<label>Last name: </label><input type="text" wicket:id="lname"
+							required="required"><br /> 
 						<label>First name: </label><input type="text" wicket:id="fname" required="required"><br />
-					    <label>Email: </label><input type="email" required="required"><br />
-						<label>Date of birth: </label><input type="text" wicket:id="birthdate" required="required"><br />
-						<label>Username: </label><input type="text" wicket:id="username" required="required"><br />
-						<label>Password: </label><input type="password" wicket:id="password" required="required"><br />
-						<label>Retype password: </label><input type="password" wicket:id="rpassword" required="required"><br />
-						<input type="submit" value="Inregistrare" class="btn btn-green fr mr10" />
+						<label>Sex: </label><select wicket:id="sex" /> </select>
+						<label>Email:</label><input type="email" wicket:id="email" required="required"><br />
+						<!--  <label>Date of birth: </label><input type="text"
+							wicket:id="birthdate" required="required"><br /> -->
+						<label>Username:
+						</label><input type="text" wicket:id="username" required="required"><br />
+						<label>City</label><input type="text" wicket:id="city"> <br/>
+						<label>Country</label><input type="text" wicket:id="country"> <br/>
+						<label>Password: </label><input type="password"
+							wicket:id="password" required="required"><br />
+						 <label>Retype password: </label><input type="password" wicket:id="rpassword"
+							required="required"><br /> 
+						<input type="submit"
+							value="Inregistrare" class="btn btn-green fr mr10" />
 					</form>
 				</div>
 			</div>
