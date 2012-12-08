@@ -14,7 +14,7 @@ public class ConnectToDataBase {
 	 
 	 try {
 		 Class.forName(driver).newInstance();
-		 con = DriverManager.getConnection(dbName);
+		 con = DriverManager.getConnection(dbName, username, password);
 		 con.setAutoCommit(true);
 		 con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
 		 
