@@ -19,15 +19,23 @@
 	<div class="main">
 		<div class="wrap">
 		<span wicket:id="feedback"> Feedback messages will be here </span><br/>
-			<form wicket:id="form">
-				Last name: <input type="text" wicket:id="lname"><br />
-				First name: <input type="text" wicket:id="fname"><br />
-				Date of birth: <input type="text" wicket:id="birthdate"><br />
-				Username: <input type="text" wicket:id="username"><br />
-				Password: <input type="password" wicket:id="password"><br />
-				Retype password: <input type="password" wicket:id="rpassword"><br />
-				<input type="submit" value="submit" />
-			</form>
+			<div class="container5">
+				<div class="box-title">
+					<h2>Inregistrare</h2>
+				</div>
+				<div class="box-content clearfix">
+					<form wicket:id="form" class="cool-form">
+						<label>Last name: </label><input type="text" wicket:id="lname"><br />
+						<label>First name: </label><input type="text" wicket:id="fname"><br />
+					    <label>Email: </label><input type="email" wicket:id="email"><br />
+						<label>Date of birth: </label><input type="text" wicket:id="birthdate"><br />
+						<label>Username: </label><input type="text" wicket:id="username"><br />
+						<label>Password: </label><input type="password" wicket:id="password"><br />
+						<label>Retype password: </label><input type="password" wicket:id="rpassword"><br />
+						<input type="submit" value="Inregistrare" class="btn btn-green fr mr10" />
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 	<footer>

@@ -41,8 +41,6 @@ public class Register extends WebPage {
 		feedback = new FeedbackPanel("feedback");
 		add(feedback);
 		
-		
-		
 		lname = new TextField("lname", new Model(""));
 		fname = new TextField("fname", new Model(""));
 		birthdate = new TextField("birthdate", new Model(""));
@@ -52,7 +50,7 @@ public class Register extends WebPage {
 		form = new Form("form") {
 			@Override
 			protected void onSubmit() {
-				System.out.println(lname.getModel().toString());
+				System.out.println("\n\n"+lname.getModel().toString());
 			}
 		};
 		form.add(lname);

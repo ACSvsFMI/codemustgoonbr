@@ -324,6 +324,11 @@ a:hover {color: #005580; text-decoration: underline;}
 .warning {display: table; margin: 5px 0; background: #FFAD33; padding: 2px 5px; /*border-radius: 3px;*/}
 .success {display: table; margin: 5px 0; background: #339933; padding: 2px 5px; /*border-radius: 3px;*/ color: #fff; }
 
+.ml10 {margin-left: 10%;}
+.ml20 {margin-left: 20%;}
+.mr10 {margin-right: 10%;}
+.mr20 {margin-right: 20%;}
+
 /* ---------------------------------- incepe distractia ---------------------------------- */
 
 body {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333;}
@@ -347,3 +352,8 @@ header {}
 .main {min-height: 800px; padding: 70px 0 0 0 ; }
 
 .footer {min-height: 100px; padding-bottom: 10px;}
+
+.cool-form {float:left; width: 350px;}
+.cool-form label {float:left; min-width: 120px; text-align: right; padding-right: 10px;}
+
+.cool-form label, .cool-form input {margin-bottom: 10px;}
