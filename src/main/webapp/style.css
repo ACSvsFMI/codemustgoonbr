@@ -320,6 +320,15 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 2
 a {color: #08C; text-decoration: none;}
 a:hover {color: #005580; text-decoration: underline;}
 
+.error {display: table; margin: 5px 0; background: #B94A48; padding: 2px 5px; /*border-radius: 3px;*/ color: #fff;}
+.warning {display: table; margin: 5px 0; background: #FFAD33; padding: 2px 5px; /*border-radius: 3px;*/}
+.success {display: table; margin: 5px 0; background: #339933; padding: 2px 5px; /*border-radius: 3px;*/ color: #fff; }
+
 /* ---------------------------------- incepe distractia ---------------------------------- */
 
+body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 .wrap {width: 960px; margin: 0 auto;}
+
+.nav-bar {width: 100%; height: 40px; background: #000;}
+.nav-bar li {display: inline-block; height: 40px;}
+.nav-bar li a {float:left; padding: 10px 15px; text-decoration: none;}
