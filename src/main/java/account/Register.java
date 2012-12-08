@@ -12,6 +12,8 @@ import org.apache.wicket.model.Model;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 
 import com.fmi.MasterPage;
+import com.sun.java.swing.plaf.motif.resources.motif;
+import com.sun.swing.internal.plaf.metal.resources.metal;
 
 public class Register extends WebPage {
 
