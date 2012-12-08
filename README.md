@@ -3,7 +3,7 @@ codemustgoonbr
 
 hackaton
 
-Aplicatie Web pe modelul Google+
+PinMyPost - Aplicatie Web pe modelul Google+
 
 - creare cont
 - adaugare prieteni
