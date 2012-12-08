@@ -20,5 +20,6 @@ public class MasterPage extends WebPage {
 				
 			}
 		};
+		add(l);
 	}
 }
